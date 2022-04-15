@@ -34,6 +34,7 @@ console.log(someOfAges / ages.length); // calculates average age
 
 let names = ["Sam", "Tommy", "Tim", "Sally", "Buck", "Bob"];
 
+
 // 2-a 
 // for loop 
 // iterate through the array
@@ -85,27 +86,6 @@ for(let i = 0; i < nameLengths.length; i++){
     sumLengths += nameLengths[i];  // calculates the sum of all the elements in the array
 }
 console.log(sumLengths); 
-
-/* OTHER LOOPS
-// while
-sumLengths = 0;
-let i = 0; 
-while (i < nameLengths.length){
-    sumLengths += nameLengths[i];
-    i++;
-}
-console.log(sumLengths);
-
-// do/while
-sumLengths = 0;
-i = 0;
-do { 
-    sumLengths += nameLengths[i];
-    i++;
-} while (i < nameLengths.length);
-
-console.log(sumLengths);
-*/
 
 
 // 7 
@@ -164,7 +144,6 @@ function findAverage(myNewArr) {
 console.log(findAverage([10, 50, 100]));
 
 // 11
-
 // function that takes two arrays of numbers and returns true 
 // if the average of the elements in the first array is 
 // greater than the average of the elements in the second array.
@@ -191,9 +170,11 @@ function willBuyDrink(isHotOutside, moneyInPocket){
 }
 console.log(willBuyDrink(true, 20.50));
 
-// 13 
 
-// IDEA: healthbar combat damage -> to determine damage combat rounds and if the character willDie
+// 13 
+// IDEA: RPG healthbar & accrued combat damage -> 
+// to determine player health after combat rounds of damage 
+// and if/when the character willDie
 
 // damage, damageBonus, playerHealth
 
